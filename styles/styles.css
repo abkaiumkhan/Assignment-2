@@ -39,3 +39,13 @@
     border-radius: 16px;
     width: 540px;
 }
+
+
+
+
+@media screen and (max-width:600px) {
+    .popular-section{
+        flex-direction: column;
+    }
+   
+}
