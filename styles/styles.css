@@ -13,18 +13,18 @@
 
 .popular-section-description {
     max-width: 1440px;
-    height: 6940px;
 }
 
 .popular-section-title {
     color: #131318;
     font-weight: 800;
+    font-size: 40px;
 }
 
 .text-description {
     color: rgba(19, 19, 24, 0.70);
     font-weight: 400;
-    padding: 16px 0;
+    padding: 10px ;
     font-size: 16px;
 }
 
@@ -33,14 +33,63 @@
     background: #FF5400;
     width: 174px;
     height: 52px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .popular-section-img {
     border-radius: 16px;
     width: 540px;
+    margin-right: 135px;
+}
+
+/*destination part start here*/
+.destination{
+    max-width: 1440px;
+    margin: 30px 480px;
+
+}
+.destination-title{
+    color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.destination-title-description{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.destination-img{
+   text-align: center;
+   row-gap: 20px;
+
+}
+.img-style{
+ margin-right: 5px;
 }
 
 
+
+
+/*footer section*/
+.footer{
+    max-width: 770px;
+   margin: 50px 335px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.footer-section-img{
+    display: flex;
+ 
+}
+.footer-section-title{
+    font-size: 32px;
+    font-weight: 800;
+   
+}
 
 
 @media screen and (max-width:600px) {
